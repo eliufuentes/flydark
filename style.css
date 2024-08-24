@@ -1,0 +1,69 @@
+body {
+    background-color: #323b4b; /* Color de fondo principal */
+    background-image: url('imagenes\bg-curvy-desktop.svg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #323b4b; ;
+}
+
+header nav a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.main-section {
+    background: url('imagenes/bg-curvy-desktop.svg') no-repeat center bottom;
+    background-size: cover;
+    padding: 60px 0;
+    position: relative;
+}
+
+.features-section {
+    background-color: #181f2b;
+}
+
+.productive-section {
+    background-color: #181f2b;
+}
+
+.testimonial-box {
+    background-color: #323b4b;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.early-access-section {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+    background-color: ##1c2230;
+    box-shadow: 10px 10px 10px 10px rgba(0.5, 0.5, 0.5, 0.5);
+    border-radius: 10px;
+
+    position: relative; 
+}
+
+.footer-section {
+    margin-top: 0px;
+    background-color: #1e2a38; /* Color de fondo del pie de página */
+}
+
+.footer-section nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section nav a:hover {
+    text-decoration: underline;
+}
